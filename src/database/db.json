@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "name": "Rohit Sharma",
+      "username": "rohit.sharma_cap",
+      "email": "rohit.sharma_cap@gmail.com",
+      "phone": "9238382911",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Virat Kohli",
+      "username": "virat_kohli",
+      "email": "virat_kohli@gmail.com",
+      "phone": "9166664444"
+    },
+    {
+      "id": 3,
+      "name": "Rishabh Pant",
+      "username": "rishabh_pant_demigod",
+      "email": "rishabh_pant_demigod@gmail.com",
+      "phone": "8181888811"
+    }
+  ]
+}
