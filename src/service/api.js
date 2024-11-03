@@ -3,10 +3,10 @@ import axios from 'axios';
 //const API_URL = 'http://localhost:3002/users';
 const API_URL = 'http://localhost:8080';
 
-export const addUser = async (data) => {
+export const addUser = async (user) => {
     try{
         //return await axios.post(API_URL, data);
-        return await axios.post(`${API_URL}/data`, data);
+        return await axios.post(`${API_URL}/user`, user);
     } catch (error) {
         console.log('Error while calling addUser api ', error.message);
     }
